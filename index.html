@@ -42,7 +42,7 @@
             }
 
             .navbar .h1-navbar {
-                font-size: 30px;
+                font-size: 25px;
                 margin-top: 10px;
                 margin-left: 10px;
             }
@@ -88,21 +88,19 @@
 
             .carousel-caption .title {
                 font-size: 30px;
-                margin-top: 0;
+                margin: 0;
                 font-family: Maven Pro;
                 color: yellow;
-                opacity: none;
             }
+
 
             .carousel-caption p {
                 text-align: center;
                 margin: 20px;
                 font-family: Archivo Narrow;
                 font-size: 20px;
-                opacity: none;
             }
 
-            
 
             .h2-title {
                 color: yellow;
@@ -242,6 +240,13 @@
         </header>
 
         <div id="fitnessSliderImages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 5"></button>
+              </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="ratio ratio-21x9">
@@ -307,18 +312,9 @@
                   <button type="button" class="btn btn-warning">Devino membru!</button>
                 </div>
               </div>
-                
-
             </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+        </div>
+            
 
         
           <div class="despre-noi-section container mt-5">
@@ -370,7 +366,7 @@
             <div class="row" style="display: flex;">
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="card" style="width: 18rem; margin: 10px;">
-                        <img src="diet-695723_1280.jpg" class="card-img-top" style="object-fit: cover;" alt="">
+                        <img src="diet-695723_1280.jpg" class="card-img-top" style="object-fit: cover;" alt="În imagine se vede un sandviș măsurat cu un șubler.">
                         <div class="card-body">
                           <h3 class="card-title">Consultanță Nutrițională</h3>
                           <p class="card-text">Colaborează cu nutriționiștii noștri pentru a crea un plan alimentar personalizat care să susțină obiectivele tale de fitness, fie că vrei să pierzi în greutate, să câștigi masă musculară sau doar să ai un stil de viață mai sănătos.</p>
@@ -481,15 +477,15 @@
     
             <div class="row gallery">
                 <div class="col-4 col-md-3 col-lg-2">
-                    <img src="bright-close-up-color-221247.jpg" class="image-gallery" alt="">
+                    <img src="bright-close-up-color-221247.jpg" class="image-gallery" alt="În imagine se văd trei kettlebells colorate (roz, albastru și verde) aliniate pe un fundal albastru deschis.">
                 </div>
             
                 <div class="col-4 col-md-3 col-lg-2">
-                    <img src="action-energy-active-adult-373919.jpg" class="image-gallery" alt="">
+                    <img src="action-energy-active-adult-373919.jpg" class="image-gallery" alt="În imagine se vede o femeie practicând yoga, executând o poziție de echilibru pe un picior pe un fundal alb">
                 </div>
 
                 <div class="col-4 col-md-3 col-lg-2">
-                    <img src="pexels-willpicturethis-1954524.jpg" class="image-gallery" alt="">
+                    <img src="pexels-willpicturethis-1954524.jpg" class="image-gallery" alt="O sală de fitness cu benzi de alergat, cu un bărbat alergând pe una dintre benzi.">
                 </div>
 
                 <div class="col-4 col-md-3 col-lg-2">
@@ -534,8 +530,9 @@
                         <li class="mt-3">Telefon: <a href="#" class="termeni-conditii">+40 749 123 456</a></li>
                         <li>E-mail: <a href="#" class="termeni-conditii">contact@electrifiedfitness.ro</a></li>
                         <li>Website: <a href="#" class="termeni-conditii">www.electrifiedfitness.ro</a></li>
-
-                    </ul>     
+                    </ul>    
+                    
+    
                         
                     <ul class="justify-content-end list-unstyled">
                         <li class="mt-3">
